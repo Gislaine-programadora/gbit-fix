@@ -35,7 +35,8 @@ Quem nunca clonou um repositório ou abriu um projeto antigo e se deparou com:
 
 🚀 A Solução: gbit-fix
 
-O gbit-fix é uma CLI inteligente parte do Ecossistema GBIT. Com um único comando, ele analisa o projeto, limpa arquivos corrompidos, resolve conflitos de dependência automaticamente e inicia o servidor do seu app!
+O gbit-fix é uma CLI inteligente parte do Ecossistema GBIT. Com um único comando, ele analisa o projeto,
+ limpa arquivos corrompidos, resolve conflitos de dependência automaticamente e inicia o servidor do seu app!
 
 ========================================
      🔧 GBIT-FIX — Auto Repair & Start   
