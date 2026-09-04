@@ -1,6 +1,13 @@
+<p align="center"> <img src="assets/gbit-fix-banner.png" alt="GBIT-FIX — Auto Repair & Start" width="1200" > </p>
+
+
+
 <div align="center">
 
 # 🔧 GBIT-FIX CLI
+
+# <img src="https://img.shields.io/npm/v/gbit-fix?style=for-the-badge&label=npm&color=CB3837&logo=npm&logoColor=white" alt="npm version" valign="middle"> GBIT fix
+---
 
 ### *Auto-repair, dependency conflict resolver & smart launcher for Node.js projects.*
 
@@ -69,3 +76,52 @@ Se preferir ter o comando sempre disponível no seu terminal:
 ```bash
 npm install -g gbit-fix
 ```
+
+Depois rode em qualquer repositório:
+
+```bash
+gbit-fix
+```
+
+🔄 Fluxo de Reparo Automático
+O gbit-fix executa a seguinte sequência de ações em segundos:
+
+graph TD
+    A[Executa npx gbit-fix] --> B[Analisa Estrutura de Pastas]
+    B --> C{Achei o package.json?}
+    C -- Sim --> D[Limpa node_modules e Lockfiles]
+    C -- Não na raiz --> E[Busca em /frontend, /backend, etc.]
+    E --> D
+    D --> F[Executa npm install]
+    F -- Sucesso --> H[Detecta Script de Startup]
+    F -- Erro de Conflito --> G[Executa npm install --legacy-peer-deps]
+    G --> H
+    H --> I[Inicia o Servidor & Exibe URL]
+
+
+    🧬 Faz Parte do Ecossistema GBIT
+O gbit-fix integra o ecossistema oficial de ferramentas CLI desenvolvidas para acelerar o workflow de desenvolvedores:
+
+📦 gbit-container — Gerenciador e orquestrador nativo de processos.
+
+⚡ gbit-next / gbit-react — Scaffolding rápido para projetos Web.
+
+🗄️ gbit-db — Gestor e migrador de bancos SQL/SQLite no terminal.
+
+🧱 create-gbit-app — Generator Fullstack com React, Node e Smart Contracts.
+
+
+
+
+📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar, estudar e contribuir!
+
+Desenvolvido por Gislaine Programadora com o Ecossistema GBIT 🚀
+
+
+👩‍💻 Autora
+
+Gislaine Cristina
+Desenvolvedora Full-Stack • DevOps • Blockchain Engineer
+GitHub: https://github.com/Gislaine-programadora
