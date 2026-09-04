@@ -1,0 +1,23 @@
+{
+  "name": "gbit-fix",
+  "version": "1.0.0",
+  "description": "CLI inteligente para reparar node_modules corrompidos, resolver conflitos de dependências e iniciar projetos Node/React/Next automaticamente.",
+  "main": "bin/index.js",
+  "bin": {
+    "gbit-fix": "./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "gbit",
+    "fix",
+    "node_modules",
+    "legacy-peer-deps",
+    "npm",
+    "repair"
+  ],
+  "author": "GBIT Ecosystem",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
