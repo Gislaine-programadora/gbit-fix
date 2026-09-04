@@ -1,4 +1,4 @@
-<p align="center"> <img src="assets/gbit-fix-logo.png" alt="GBIT-FIX — Auto Repair & Start" width="1200" > </p>
+<p align="center"> <img src="assets/gbit-fix-logo.png" alt="GBIT-FIX — Auto Repair & Start" width="800" > </p>
 
 
 
